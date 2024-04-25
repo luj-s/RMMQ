@@ -2,7 +2,7 @@
 Simple global MessagingService matchmaking system with queues.
 
 # Usage
-To use this RRMQ, import ![Queues.rbxm](Queues.rbxm?raw=true "Queues.rbxm"), [the Toolbox model](https://create.roblox.com/marketplace/asset/15528670427) or [the package](https://create.roblox.com/marketplace/asset/15528694525).
+To use RRMQ, import ![Queues.rbxm](Queues.rbxm?raw=true "Queues.rbxm"), [the Toolbox model](https://create.roblox.com/marketplace/asset/15528670427) or [the package](https://create.roblox.com/marketplace/asset/15528694525).
 
 # API
 
