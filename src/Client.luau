@@ -7,7 +7,7 @@ local Module = {
 	ClientJoinedQueue = GoodSignal.new(),
 	PlayerJoinedQueue = GoodSignal.new(),
 	PlayerLeftQueue = GoodSignal.new(),
-	GameStarting = GoodSignal.new()
+	GameStarting = GoodSignal.new(),
 }
 
 local ClientJoinedQueue = Module.ClientJoinedQueue
@@ -29,7 +29,9 @@ local Callbacks = {
 
 Client:GetAttributeChangedSignal("QueueAccessCode"):Connect(function()
 	local QueueAccessCode = Client:GetAttribute("QueueAccessCode")
-	if not QueueAccessCode then return end
+	if not QueueAccessCode then
+		return
+	end
 	ClientJoinedQueue:Fire(QueueAccessCode)
 end)
 
