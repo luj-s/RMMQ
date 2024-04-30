@@ -1,0 +1,17 @@
+{
+	"name": "rmmq testing",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"Packages": {
+				"$path": "Packages",
+				"rmmq": {
+					"$path": "src",
+					"RemoteEvent": {
+						"$className": "RemoteEvent"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"name": "rmmq testing",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"Packages": {
+				"$path": "Packages",
+				"rmmq": {
+					"$path": "src",
+					"RemoteEvent": {
+						"$className": "RemoteEvent"
+					}
+				}
+			}
+		},
+		"StarterPlayer": {
+			"StarterPlayerScripts": {
+				"rmmq client test": {
+					"$path": "tests/client"
+				}
+			}
+		},
+		"ServerScriptService": {
+			"rmmq server test": {
+				"$path": "tests/server"
+			}
+		}
+	}
+}

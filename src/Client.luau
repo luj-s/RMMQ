@@ -2,7 +2,7 @@
 
 local Client = game:GetService("Players").LocalPlayer
 
-local GoodSignal = require(script.GoodSignal)
+local GoodSignal = require(game:GetService("ReplicatedStorage").Packages.goodsignal)
 local Module = {
 	ClientJoinedQueue = GoodSignal.new(),
 	PlayerJoinedQueue = GoodSignal.new(),

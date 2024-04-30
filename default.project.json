@@ -1,0 +1,9 @@
+{
+	"name": "rmmq",
+	"tree": {
+		"$path": "src",
+		"RemoteEvent": {
+			"$className": "RemoteEvent"
+		}
+	}
+}

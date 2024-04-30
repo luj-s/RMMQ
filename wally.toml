@@ -1,0 +1,11 @@
+[package]
+name = "luj-s/rmmq"
+description = "Simple Roblox MessagingService Matchmaking system with Queues"
+version = "0.1.0"
+license = "MIT"
+authors = ["<lcis.f@proton.me>"]
+realm = "shared"
+registry = "https://github.com/UpliftGames/wally-index"
+
+[dependencies]
+goodsignal = "stravant/goodsignal@0.2.1"
