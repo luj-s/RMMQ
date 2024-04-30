@@ -1,8 +1,8 @@
 # Roblox MessagingService matchmaking queues
 Simple global MessagingService matchmaking system with queues.
 
-# Usage
-To use RMMQ, import [the Toolbox model](https://create.roblox.com/marketplace/asset/15528670427) or [the package](https://create.roblox.com/marketplace/asset/15528694525).
+# Installation
+To use RMMQ, you can install the [Wally package](https://wally.run/package/luj-s/rmmq), use [the Toolbox model](https://create.roblox.com/marketplace/asset/15528670427) or get [the Roblox package](https://create.roblox.com/marketplace/asset/15528694525).
 
 # API
 
